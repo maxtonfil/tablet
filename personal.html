@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/html5reset.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<title>My Life</title>
+</head>
+<body>
+    <a class = "skip" href="#skip">Skip to Main Content</a>
+    <div class="logo-flex">
+      <h1 class="logo-ltr" id="logo-m">M</h1>
+      <h1 class="logo-ltr" id="logo-a">A</h1>
+      <h1 class="logo-ltr" id="logo-x">X</h1>
+      <h1 class="logo-ltr" id="logo-t">T</h1>
+      <h1 class="logo-ltr" id="logo-o">O</h1>
+      <h1 class="logo-ltr" id="logo-n">N</h1>
+      <h1 class="logo-ltr" id="logo-spc"> </h1>
+      <h1 class="logo-ltr" id="logo-f">F</h1>
+      <h1 class="logo-ltr" id="logo-i">I</h1>
+      <h1 class="logo-ltr" id="logo-l">L</h1>
+    </div>
+    <header>
+        <div class="topnav">
+            <a id="active" href = "personal.html">My Life</a>
+            
+            <div id="myLinks">
+                <a href="index.html" >About Me</a>
+                <a href = "cool.html">Professional Experience</a>
+                <a href = "dogs.html">Contact Me</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                &#9776;
+              </a>
+
+              <script>
+                function myFunction() {
+                    var x = document.getElementById("myLinks");
+                    if (x.style.display === "block") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                    }
+                    }
+            </script>
+        </div>
+
+        <div class="navigation">
+            <nav>
+                <ul>
+                  <li><a href = "index.html">About Me</a></li>
+                  <li id="active-page"><a href = "personal.html">My Life</a></li>
+                  <li><a href = "cool.html">Professional Experience</a></li>
+                  <li><a href = "dogs.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="personal-wrapper">
+        <div class="personal-grid" id="skip">
+        <div class="personal-header">
+            <h1>My Life</h1>
+        </div>
+
+        <div class="headshot-image personal-img">
+            <img src="images/kate.jpg" alt=""/>
+          </div>
+          
+          <div class="headshot-text-block personal-text">
+            <a id="headshot-pro"></a>
+            <h2>Kate & Me</h2>
+            <p>My girlfriend and I at Lake Michigan</p>
+          </div>
+      
+          <div class="wedding-image personal-img">
+            <img class= "personal-img" src="images/wedding.jpg" alt=""/>
+          </div>
+      
+          <div class="wedding-text-block personal-text">
+            <a id="wedding-pro"></a>
+            <h2>Margaret's Wedding</h2>
+            <p>My mother, my brother, and myself walking down the aisle at my sister's wedding</p>
+          </div>
+      
+          <div class="frisbee-image personal-img">
+            <img class= "personal-img" src="images/soy and me.jpg" alt=""/>
+          </div>
+      
+          <div class="frisbee-text-block personal-text">
+            <a id="frisbee-pro"></a>
+            <h2>Ultimate Frisbee</h2>
+            <p>Sawyer and I after winning the 2018 high school state championship </p>
+          </div>
+      
+          <div class="crab-image">
+            <img class="personal-img" src="images/jeep.png" alt=""/>
+          </div>
+      
+          <div class="crab-text-block personal-text">
+            <a id="crab-pro"></a>
+            <h2>My 1998 Jeep</h2>
+            <p>It sadly died last month :(</p>
+          </div>
+
+          <div class="freshman-image">
+            <img class="personal-img" src="images/freshman.jpg" alt=""/>
+          </div>
+      
+          <div class="freshman-text-block personal-text">
+            <a id="frisbee-pro"></a>
+            <h2>Freshman Year!</h2>
+            <p>I am at the Big House in this picture</p>
+          </div>
+          
+
+          </div>
+          </div>
+    </main>
+    <footer>
+        <p>Copyright 2021 Maxton Kenneth Ferdinand Fil</p>
+     </footer>
+</body>
+</html>

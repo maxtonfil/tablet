@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/html5reset.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<title>Maxton's Dank Site</title>
+</head>
+<body>
+    <a class = "skip" href="#skip">Skip to Main Content</a>
+
+    <div class="logo-flex">
+        <h1 class="logo-ltr" id="logo-m">M</h1>
+        <h1 class="logo-ltr" id="logo-a">A</h1>
+        <h1 class="logo-ltr" id="logo-x">X</h1>
+        <h1 class="logo-ltr" id="logo-t">T</h1>
+        <h1 class="logo-ltr" id="logo-o">O</h1>
+        <h1 class="logo-ltr" id="logo-n">N</h1>
+        <h1 class="logo-ltr" id="logo-spc"> </h1>
+        <h1 class="logo-ltr" id="logo-f">F</h1>
+        <h1 class="logo-ltr" id="logo-i">I</h1>
+        <h1 class="logo-ltr" id="logo-l">L</h1>
+      </div>
+
+    <header>
+        <div class="topnav">
+            <a href="index.html" id="active">About Me</a>
+            <div id="myLinks">
+                <a href = "personal.html">My Life</a>
+                <a href = "cool.html">Professional Experience</a>
+                <a href = "dogs.html">Contact Me</a>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                &#9776;
+              </a>
+
+              <script>
+                function myFunction() {
+                    var x = document.getElementById("myLinks");
+                    if (x.style.display === "block") {
+                        x.style.display = "none";
+                    } else {
+                        x.style.display = "block";
+                    }
+                    }
+            </script>
+        </div>
+
+        <div class="navigation">
+            <nav>
+                <ul>
+                  <li id="active-page"><a href = "index.html">About Me</a></li>
+                  <li><a href = "personal.html">My Life</a></li>
+                  <li><a href = "cool.html">Professional Experience</a></li>
+                  <li><a href = "dogs.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>  
+</header>
+    <main id="skip" class="home-grid">
+        <p>
+            Hi, my name is Maxton
+        </p>
+
+        <div class="pro-head">
+            <img src="images/headshot-mobile.jpg" alt="handsome guy"/>
+        </div>
+
+        <div class="maxton-bio">
+            <p>My name is Maxton Fil. I am a senior at the University of Michigan</p>
+        </div>  
+    </main>
+    <footer>
+        <p>Copyright 2021 Maxton Kenneth Ferdinand Fil</p>
+    </footer>
+</body>
+</html>
